@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.container{
+  margin-top: 0px;
+}
+.discovery_section {
+  max-width: 1600px;
+  width: 100%;
+  padding-top: 50px;
+  height: 750px;
+  margin: 0 auto;
+  background: url(../../assets/banner.png) no-repeat ;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.discovery_section > h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 69px;
+  text-align: center;
+
+  color: #e4b95b;
+}
+.discovery_btn{
+    background-color: transparent;
+    border: none; /* Удаление границ кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    text-align: center; /* Центрирование текста кнопки */
+    text-decoration: none; /* Удаление подчеркивания текста кнопки */
+    display: inline-block; /* Отображение кнопки как блочный элемент */
+    font-size: 20px; /* Размер шрифта кнопки */
+    cursor: pointer;
+    color:#e4b95b;
+    height: 40px;
+    margin-top: 50px;
+    transition: all 0.25s;
+    width: 230px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px  #e4b95b;
+  }
+  .discovery_btn:hover{
+    background-color: #e4b95b;
+    color: white;
+    
+  }
+
+.discovery_section > h2 {
+  font-family: "Quicksand";
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 69px;
+  color: #ffffff;
+}
+.menu{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+@media(max-width:374px){
+  .discovery_btn{
+    width: 130px;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 20px;
+  }
+  .discovery_section{
+    height: 700px;
+  }
+  .discovery_section>h1{
+    font-size: 30px;
+  }
+  .discovery_section h2{
+    font-size: 20px;
+  } 
+  .menu{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:369px){
+  .menu{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .discovery_btn{
+    margin-top: 45px;
+  }
+  .discovery_section{
+    height: 750px;
+  }
+}
+@media(max-width:327px){
+  .discovery_section{
+    max-width: 327px;
+    width: 100%;
+  }
+  .menu{
+    width: 80%;
+  }
+}
