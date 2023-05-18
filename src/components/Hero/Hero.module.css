@@ -60,7 +60,7 @@ hr {
   }
 }
 .best{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   padding: 0 1% 0 1%;
@@ -380,7 +380,7 @@ hr {
     width: 100%;
   }
   .left img{
-    width: 120px; 
+    width: 90px; 
   }
   .right img{
     width: 110px;
@@ -392,7 +392,7 @@ hr {
     width: 100%;
   }
   .left img{
-   width:  100px;
+   width:  90px;
   }
   .right img{
     width: 90px;

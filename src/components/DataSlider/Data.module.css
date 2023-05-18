@@ -118,8 +118,17 @@
   .data_slider_card{
     width: 270px;
   }
-  .data_slider_card>img{
+  .data_slider_card_title>img{
     width: 270px;
+  }
+  .coment{
+    display: none;
+  }
+  .lorem {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
   }
   .coment>img{
     margin-left: 70px;
