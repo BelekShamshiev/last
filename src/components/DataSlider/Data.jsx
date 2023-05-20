@@ -31,7 +31,7 @@ const Blog = ({img}) => {
         breakpoints={{
           320: {
             slidesPerView:1,
-            spaceBetween:50,
+            spaceBetween:200,
           },
           425: {
             slidesPerView: 1,
@@ -44,6 +44,10 @@ const Blog = ({img}) => {
           768: {
             slidesPerView: 2,
             spaceBetween: 40,
+          },
+          1023: {
+            slidesPerView:2,
+            spaceBetween:210,
           },
           1024: {
             slidesPerView: 3,

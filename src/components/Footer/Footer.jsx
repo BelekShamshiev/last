@@ -12,19 +12,13 @@ const Footer = () => {
     <div className={s.container}>
       <div className={s.footer}>
         <div className={s.footer_logo}>
-          <img src={footer_logo} alt="logo" />
+          <img className={s.footer_logo_photo} src={footer_logo} alt="logo" />
           <p>
             We have a hankering for some really in good <br /> melt in a mouth
             variety. Floury is the best <br /> choice to taste food and dessert.
           </p>
-          <div className={s.socialmedia}>
-          <img className={s.socialmedia_facebook} src={facebook} alt="facebook" />
-          <img className={s.socialmedia_twiter} src={twiter} alt="twiter" />
-          <img className={s.socialmedia_instagram} src={instagram} alt="instagram" />
-          <img className={s.socialmedia_pintrest} src={pintrest} alt="pintrest" />
-          <img className={s.socialmedia_google} src={google} alt="google" />
-          </div>
         </div>
+        
         <div className={s.footer_contact}>
           <h1>Contact</h1>
           <p>

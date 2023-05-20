@@ -50,8 +50,8 @@ const Coffeedespina = ({img}) => {
             spaceBetween: 40,
           },
           "@1.50": {
-            slidesPerView: 5,
-            spaceBetween: 60,
+            slidesPerView: 4,
+            spaceBetween: 30,
           },
         }}
         modules={[Pagination,Autoplay]}
@@ -62,8 +62,6 @@ const Coffeedespina = ({img}) => {
             <img className={s.despina_one_img} src={item.img} alt="coffee_despina" />
         </SwiperSlide>
         ))}
-      
-
       </Swiper>
         </div>
     );

@@ -9,6 +9,6 @@ export const coffee = [
     {id:2,img:mocha,name:"CAFFE MOCHA",title:"Pellentesque habitant morbi tristique senectus ",price:"25.00"},
     {id:3,img:white,name:"WHITE MOCHA",title:"Pellentesque habitant morbi tristique senectus ",price:"15.00"},
     {id:4,img:macchiato,name:"CARAMEL MACCHIATO",title:"Pellentesque habitant morbi tristique senectus ",price:"45.00"},
-    {id:5,img:espresso,name:"ESPRESSO",title:"Pellentesque habitant morbi tristique senectuss",price:"25.00"},
+    {id:5,img:lattee,name:"ESPRESSO",title:"Pellentesque habitant morbi tristique senectuss",price:"25.00"},
     {id:6,img:iced,name:"ICED LATTEE",title:"Pellentesque habitant morbi tristique senectus ",price:"15.00"},
 ]   
