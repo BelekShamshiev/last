@@ -20,9 +20,9 @@ const Main = () => {
     <Build/>
     <Best/>
     <Blog/>
-    <Client/>
+    <Client/> 
     <Coffeedespina/>
-    <Footer/>
+    <Footer/> 
     </>
   );
 };

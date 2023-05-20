@@ -16,10 +16,10 @@ const Coffeedespina = () => {
     return (
         <div className={s.container}>
         <div className={s.despina}>
-        <h1 className={s.despina_name}>#coffeedespina</h1>
+        <h1>#coffeedespina</h1>
       </div>
       <div className={s.despina_description}>
-        <p className={s.despina_description_p}>
+        <p>
           Enjoyed your stay at Despina? Share your moments with us. Follow us on
           Instagram and use
         </p>

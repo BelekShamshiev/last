@@ -104,7 +104,7 @@ const Hero = () => {
 
       <div className={s.best}>
         <div className={s.right}>
-          <img src={bob} alt="awdad" />
+          <img src={bob} alt="bob" />
         </div>
         <div className={s.title}>
           <div className={s.title_guality} >
@@ -117,7 +117,7 @@ const Hero = () => {
           </div>
         </div>
         <div className={s.left}>
-          <img src={drink} alt="dzcd" />
+          <img src={drink} alt="drink" />
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const Best = () => {
           </h3>
         </div>
         <div className={s.coffee_beans}>
-          <img className={s.coffee_beans_img} src={coffee_beans} alt="dfsdesdrgresfdfdfdfdfdfdfdfdfdfdfd" />
+          <img className={s.coffee_beans_img} src={coffee_beans} alt="beans" />
         </div>
       </div>
       <Swiper

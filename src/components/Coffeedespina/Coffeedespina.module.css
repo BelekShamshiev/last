@@ -15,11 +15,11 @@
   margin-top: 120px;
 }
 
-.despina_name {
+.despina h1 {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 62px;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@
   display: flex;
   margin: 20px;
 }
-.despina_description_p {
+.despina_description p {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;

@@ -11,7 +11,9 @@ import paper_bag from "../../assets/paber_bag.png";
 import s from "./Build.module.css";
 const Build = () => {
   return (
-    <div className={s.container} id="build">
+    <div className={s.container} >
+      <div id="build">
+      </div>
       <div className={s.build_title}>
         <h1>Coffee Build Your Base</h1>
         <p>What Happens Here</p>

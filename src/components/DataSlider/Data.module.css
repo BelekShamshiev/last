@@ -138,7 +138,6 @@
     align-items: center;
   }
 }
-
 @media (max-width:425px){
   .data_slider{
     justify-content: center;

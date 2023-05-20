@@ -1,6 +1,5 @@
 import React from "react";
 import "./Burger.css";
-import { Link, Element } from 'react-scroll';
 import logo from "../../assets/logo.png";
 import phone from "../../assets/phone.png";
 import basket from "../../assets/basket.png";

@@ -18,7 +18,7 @@ const Card = () => {
         </div>
         <div className={s.card_main}>
           <div className={s.card_sale}>
-              <img className={s.circle} src={circle} alt="awdadw" /> 
+              <img className={s.circle} src={circle} alt="circle" /> 
             <div className={s.card_sale_title}>          
 
             <p>Thıs frıday 25% off</p>

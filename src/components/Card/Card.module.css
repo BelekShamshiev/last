@@ -238,6 +238,33 @@
     max-width: 250px;
   }
 }
+@media (max-width:800px){
+  .container_card {
+    width: 800px;
+  }
+  .card_creat {
+    max-width: 200px;
+    width: 100%;
+  }
+  .card_sale {
+    max-width: 200px;
+    width: 100%;
+  }
+  .card_creat_title {
+    margin-top: 90px;
+  }
+  .card_creat_title > p {
+    font-size: 20px;
+  }
+  .card_sale_title > p {
+    font-size: 20px;
+  }
+  .create_title_btn {
+    width: 120px;
+    height: 25px;
+  }
+
+}
 @media (max-width: 768px) {
   .container_card {
     width: 760px;
