@@ -7,9 +7,9 @@ import cacao_cup from "../../assets/cacao_cup.png";
 import coffe_cup from "../../assets/coffe_cup.png";
 import paper from "../../assets/paper.png";
 import paper_bag from "../../assets/paber_bag.png";
-// import coffee_put from "../../assets/coffee_put.png";
 import s from "./Build.module.css";
-const Build = () => {
+import { build } from "../constant/build";
+const Build = ({img}) => {
   return (
     <div className={s.container} >
       <div id="build">
@@ -30,7 +30,6 @@ const Build = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        grabCursor={true}
         dynamicBullets={true}
         pagination={{
           clickable: true,
@@ -52,53 +51,15 @@ const Build = () => {
         modules={[Pagination, Parallax, Autoplay]}
         className={s.swiper}
       >
-        <SwiperSlide>
-          <img className={s.swiper_img} src={cacao_cup} alt="cacao_cup" />
+        {build.map ((item) => (
+                  <SwiperSlide>
+          <img className={s.swiper_img} src={item.img} alt="cacao_cup" />
 
           <button className={s.swiper_btn}>read more</button>
 
         </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={coffe_cup} alt="coffe_cup" />
+        ))}
 
-          <div className={s.swiper_title}>
-            <p></p>
-          </div>
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={paper} alt="paper" />
-
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={paper_bag} alt="paper_bag" />
-
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={cacao_cup} alt="cacao_cup" />
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={coffe_cup} alt="coffee_cup" />
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={paper} alt="paper" />
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className={s.swiper_img} src={paper_bag} alt="paper_bag" />
-
-          <button className={s.swiper_btn}>read more</button>
-        </SwiperSlide>
       </Swiper>
     </div>
   );

@@ -35,11 +35,13 @@
   height: 400px;
 }
 .swiper_img {
+  cursor: pointer;
   width: 270px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 .swiper_img:hover {
   filter: brightness(90%);
+  transform: scale(0.96);
 }
 .swiper-slide-prev .swiper_img,
 .swiper-slide-next .swiper_img {

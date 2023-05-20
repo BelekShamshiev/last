@@ -5,13 +5,9 @@ import "swiper/css";
 import { Modal, Button } from 'antd';
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper";
-import despina_one from "../../assets/despina_one.png";
-import despina_two from "../../assets/despina_two.png";
-import despina_three from "../../assets/despina_three.png";
-import despina_four from "../../assets/despina_four.png";
-import despina_five from "../../assets/despina_five.png";
-import instagram from "../../assets/instagram.png";
-const Coffeedespina = () => {
+import { coffeedespina } from "../constant/Cooffeedespina";
+
+const Coffeedespina = ({img}) => {
   
     return (
         <div className={s.container}>
@@ -61,45 +57,13 @@ const Coffeedespina = () => {
         modules={[Pagination,Autoplay]}
         className={s.coffeedespina}
       >
-        <SwiperSlide>
-            <img className={s.despina_one_img} src={despina_one} alt="coffee_despina" />
+        {coffeedespina.map((item) => (
+            <SwiperSlide>
+            <img className={s.despina_one_img} src={item.img} alt="coffee_despina" />
         </SwiperSlide>
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_two} alt="coffee_despina" />
-        </SwiperSlide>
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_three} alt="coffee_despina" />
-        </SwiperSlide>        
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_four} alt="coffee_despina" />
-        </SwiperSlide>      
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_three} alt="coffee_despina" />
-        </SwiperSlide>        
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_one} alt="coffee_despina" />
-        </SwiperSlide>
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_two} alt="coffee_despina" />
-        </SwiperSlide>
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_three} alt="coffee_despina" />
-        </SwiperSlide>        
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_four} alt="coffee_despina" />
-        </SwiperSlide>      
-        <SwiperSlide>
-          
-            <img className={s.despina_one_img} src={despina_three} alt="coffee_despina" />
-        </SwiperSlide>   
+        ))}
+      
+
       </Swiper>
         </div>
     );

@@ -3,17 +3,12 @@ import s from "./Data.module.css";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import simple from "../../assets/simple.jpg"
-import cofeina from "../../assets/coffeina.jpg"
 import "swiper/css/pagination";
 import { Autoplay } from "swiper";
-import june from "../../assets/June.png";
-import aestetic from "../../assets/aestetik.jpg"
 import shishka from "../../assets/shishka.svg"
 import coment from "../../assets/chat.svg"
-import mauy from "../../assets/May.png";
-import may from "../../assets/May_2.png";
-const Blog = () => {
+import { dataslider } from "../constant/dataslider";
+const Blog = ({img}) => {
   
   return (
     <div className={s.container_blog} id="blog">
@@ -62,10 +57,11 @@ const Blog = () => {
         modules={[ Autoplay]}
         className={s.data_slider}
       >
-<SwiperSlide>
+        {dataslider.map((item) =>(
+          <SwiperSlide>
   <div className={s.data_slider_card}>
     <div className={s.data_slider_card_title}>
-    <img src={june} alt="apapap" /> 
+    <img src={item.img} alt="img" /> 
        <div className={s.coment}>
       <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
       <img src={coment} alt="coment" /> <p> No Comment</p>
@@ -75,71 +71,8 @@ const Blog = () => {
     </div>
   </div>
 </SwiperSlide>
+        ))}
 
-<SwiperSlide>
-  <div className={s.data_slider_card}>
-    <div className={s.data_slider_card_title}>
-    <img src={may} alt="apapap" /> 
-       <div className={s.coment}>
-      <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
-      <img src={coment} alt="coment" /> <p> No Comment</p>
-    </div>
-    <h1 className={s.make}>Coffee Shop</h1>
-    <p className={s.lorem}>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed tincidunt, erat in malesuada <br /> aliquam, est…</p>
-    </div>
-  </div>
-</SwiperSlide>
-<SwiperSlide>
-  <div className={s.data_slider_card}>
-    <div className={s.data_slider_card_title}>
-    <img src={mauy} alt="apapap" /> 
-       <div className={s.coment}>
-      <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
-      <img src={coment} alt="coment" /> <p> No Comment</p>
-    </div>
-    <h1 className={s.make}> Coffee Bar</h1>
-    <p className={s.lorem}>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed tincidunt, erat in malesuada <br /> aliquam, est…</p>
-    </div>
-  </div>
-</SwiperSlide><SwiperSlide>
-  <div className={s.data_slider_card}>
-    <div className={s.data_slider_card_title}>
-    <img src={simple} alt="apapap" /> 
-       <div className={s.coment}>
-      <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
-      <img src={coment} alt="coment" /> <p> No Comment</p>
-    </div>
-    <h1 className={s.make}>Make it Simple</h1>
-    <p className={s.lorem}>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed tincidunt, erat in malesuada <br /> aliquam, est…</p>
-    </div>
-  </div>
-</SwiperSlide>
-<SwiperSlide>
-  <div className={s.data_slider_card}>
-    <div className={s.data_slider_card_title}>
-    <img src={cofeina} alt="apapap" /> 
-       <div className={s.coment}>
-      <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
-      <img src={coment} alt="coment" /> <p> No Comment</p>
-    </div>
-    <h1 className={s.make}>Make it Simple</h1>
-    <p className={s.lorem}>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed tincidunt, erat in malesuada <br /> aliquam, est…</p>
-    </div>
-  </div>
-</SwiperSlide>
-<SwiperSlide>
-  <div className={s.data_slider_card}>
-    <div className={s.data_slider_card_title}>
-    <img src={aestetic} alt="apapap" /> 
-       <div className={s.coment}>
-      <img src={shishka} alt="shishka" /> <p>By Vishal Patel</p>
-      <img src={coment} alt="coment" /> <p> No Comment</p>
-    </div>
-    <h1 className={s.make}>Make it Simple</h1>
-    <p className={s.lorem}>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed tincidunt, erat in malesuada <br /> aliquam, est…</p>
-    </div>
-  </div>
-</SwiperSlide>
       </Swiper>
     </div>
   );
