@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-.container_card {
+.container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -44,6 +44,11 @@
   padding: 3px;
   border-radius: 20px;
   border: solid 1px rgb(255, 255, 255);
+}
+.create_title_btn:hover{
+  background-color: #e4b95b;
+  color: rgb(0, 0, 0);
+  border: solid 1px black;
 }
 .flavor_title {
   display: flex;
@@ -147,7 +152,7 @@
 }
 
 @media (max-width: 1024px) {
-  .container_card {
+  .container {
     /* max-width: 1024px; */
     width: 100%;
   }
@@ -186,7 +191,7 @@
   }
 }
 @media (max-width: 928px) {
-  .container_card {
+  .container {
     width: auto;
   }
   .card_creat {
@@ -221,7 +226,7 @@
   }
 }
 @media (max-width: 830px) {
-  .container_card {
+  .container {
     width: 100%;
     max-width: 830px;
   }
@@ -239,7 +244,7 @@
   }
 }
 @media (max-width:800px){
-  .container_card {
+  .container {
     max-width: 800px;
     width: 100%;
   }
@@ -268,7 +273,7 @@
 }
 
 @media (max-width: 768px) {
-  .container_card {
+  .container {
     width: 760px;
   }
   .card_creat {
@@ -294,7 +299,7 @@
   }
 }
 @media (max-width: 759px) {
-  .container_card {
+  .container {
     max-width: 759px;
     width: 100%;
   }
@@ -336,7 +341,7 @@
   }
 }
 @media (max-width: 506px) {
-  .container_card {
+  .container {
     max-width: 506px;
     width: 100%;
     height: 900px;
@@ -381,7 +386,7 @@
 }
 
 @media(max-width:425px){
-  .container_card{
+  .container{
     max-width: 425px;
     width: 100%;
   }
@@ -427,7 +432,7 @@
   }
 } 
 @media(max-width:387px){
-  .container_card{
+  .container{
     max-width: 387px;
     width: 100%;
   }

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-.container_blog {
+.container {
   background: #eae7de;
   max-width: 1600px;
   height: 600px;
@@ -90,7 +90,7 @@
   display: none;
 }
 @media only screen and (max-width: 1024px) {
-  .container_blog {
+  .container {
     max-width: 100%;
     height: auto;
     padding: 0 20px;
@@ -123,7 +123,7 @@
 
 
 @media(max-width:768px){
-  .container_blog{
+  .container{
     width: 100%;
   }
   .data_slider_card{

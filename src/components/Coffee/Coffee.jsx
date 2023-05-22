@@ -9,7 +9,7 @@ const LokBlock = ({ img, name, price, title }) => {
           <h4>{name}</h4>
           <p>$ {price}</p>
         </div>
-        <p className={s.menu_title_p}>{title}</p>
+        <p className={s.menu_title_description}>{title}</p>
       </div>
     </div>
   );

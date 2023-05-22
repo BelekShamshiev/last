@@ -7,7 +7,7 @@ import sale from "../../assets/machin.png";
 import creat from "../../assets/spon.png";
 const Card = () => {
   return (
-    <div className={s.container_card}>
+    <div className={s.container}>
       <div className={s.card_all}>
         <div className={s.card_flavor}>
           <div className={s.flavor_title}>

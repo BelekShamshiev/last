@@ -9,20 +9,19 @@ import paper from "../../assets/paper.png";
 import paper_bag from "../../assets/paber_bag.png";
 import s from "./Build.module.css";
 import { build } from "../constant/build";
-const Build = ({img}) => {
+const Build = ({ img }) => {
   return (
-    <div className={s.container} >
-      <div id="build">
-      </div>
+    <div className={s.container}>
+      <div id="build"></div>
       <div className={s.build_title}>
         <h1>Coffee Build Your Base</h1>
         <p>What Happens Here</p>
       </div>
       <Swiper
-       style={{
-        "--swiper-pagination-color": "#BA9C7F",
-      }}
-      speed={2500}
+        style={{
+          "--swiper-pagination-color": "#BA9C7F",
+        }}
+        speed={2500}
         loop
         slidesPerView={1}
         spaceBetween={10}
@@ -51,15 +50,14 @@ const Build = ({img}) => {
         modules={[Pagination, Parallax, Autoplay]}
         className={s.swiper}
       >
-        {build.map ((item) => (
-                  <SwiperSlide>
-          <img className={s.swiper_img} src={item.img} alt="cacao_cup" />
-
-          <button className={s.swiper_btn}>read more</button>
-
-        </SwiperSlide>
+        {build.map((item) => (
+          <SwiperSlide>
+            <img className={s.swiper_img} src={item.img} alt="cacao_cup" />
+            <div className={s.swiper_btn}>
+              <button>read more</button>
+            </div>
+          </SwiperSlide>
         ))}
-
       </Swiper>
     </div>
   );

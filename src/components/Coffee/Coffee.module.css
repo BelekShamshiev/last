@@ -98,7 +98,7 @@
   .menu_title_dection>p{
     font-size: 12px;
   }
-  .menu_title_p{
+  .menu_title_description{
     font-size: 10px !important;
   }
 }
@@ -115,7 +115,7 @@
   .menu_title_dection>p{
     font-size: 10px;
   }
-  .menu_title_p{
+  .menu_title_description{
     font-size: 5px;
   }
 }
@@ -132,7 +132,7 @@
   .menu_title_line {
     font-size: 18px;
   }
-  .menu_title_p {
+  .menu_title_description {
     font-size: 10px;
   }
 }
@@ -150,7 +150,7 @@
   .menu_title_line{
     font-size: 15px;
   }
-  .menu_title_p{
+  .menu_title_description{
     font-size: 8px;
   }
 }
@@ -173,7 +173,7 @@
   .menu_title_line{
     font-size: 22px;
   }
-  .menu_title_p{
+  .menu_title_description{
     font-size: 10px;
   }
   .menu{
@@ -196,7 +196,7 @@
     .menu_title_line{
       font-size: 12px;
     }
-    .menu_title_p{
+    .menu_title_description{
       font-size: 8px;
     }
   

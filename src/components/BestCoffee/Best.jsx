@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import best_coffee_img from "../../assets/rectangle.png";
 import capuchino from "../../assets/capuchino.png";
 import makachino from "../../assets/makachino.jpg";
@@ -43,7 +43,7 @@ const Best = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination, Navigation, Autoplay]}
+        modules={[Pagination,Autoplay]}
         className={s.coffee_swiper}
       >
         <SwiperSlide>

@@ -60,7 +60,7 @@
   margin-right: 150px;
 }
 
-.swiper_btn {
+.swiper_btn button {
   background-color: transparent; /* Зеленый цвет фона кнопки */
   border: none; /* Удаление границ кнопки */
   color: white; /* Белый цвет текста кнопки */
@@ -78,7 +78,7 @@
   border-radius: 20px;
   border: solid 1px black;
 }
-.swiper_btn:hover {
+.swiper_btn button:hover {
   background-color: #e4b95b;
   color: white;
 }
@@ -87,7 +87,7 @@
   .swiper_img {
     width: 200px;
   }
-  .swiper_btn {
+  .swiper_btn button {
     margin-left: 40px;
   }
 }
@@ -98,7 +98,7 @@
   .swiper_img {
     width: 200px;
   }
-  .swiper_btn {
+  .swiper_btn button {
     display: none;
   }
 }

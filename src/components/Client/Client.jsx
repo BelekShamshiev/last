@@ -8,7 +8,7 @@ import { Autoplay } from "swiper";
 import { client } from "../constant/client";
 const Client = ({ img, name, profesion, title }) => {
   return (
-    <div className={s.container_client}>
+    <div className={s.container}>
       <div id="rev"></div>
       <div className={s.client}>
         <h1>What Clients Say</h1>

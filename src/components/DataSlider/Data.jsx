@@ -11,7 +11,7 @@ import { dataslider } from "../constant/dataslider";
 const Blog = ({img}) => {
   
   return (
-    <div className={s.container_blog} id="blog">
+    <div className={s.container} id="blog">
       <div className={s.blog_title}>
         <h1>Feature Blog</h1>
       </div>

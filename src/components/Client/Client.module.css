@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-.container_client {
+.container {
   background: url(../../assets/Client.png);
   background-attachment: fixed;
   max-width: 1600px;
@@ -124,7 +124,7 @@
   align-items: center;
 }
 @media (max-width: 1024px) {
-  .container_client {
+  .container {
     height: auto;
   }
   .client {
