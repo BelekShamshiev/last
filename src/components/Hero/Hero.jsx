@@ -52,7 +52,7 @@ const Hero = () => {
           >
             <SwiperSlide>
               <img className={s.coffe} src={coffe} alt="coffe"></img>{" "}
-              <p className={s.hero_swiper_p}>Coffe</p>
+              <p className={s.hero_swiper_title}>Coffe</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={milk} alt="milk" />{" "}
