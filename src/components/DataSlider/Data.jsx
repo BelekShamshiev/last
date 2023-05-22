@@ -12,10 +12,10 @@ const Blog = ({img}) => {
   
   return (
     <div className={s.container_blog} id="blog">
-      <div className={s.blog_h}>
+      <div className={s.blog_title}>
         <h1>Feature Blog</h1>
       </div>
-      <div className={s.blog_p}>
+      <div className={s.blog_desc}>
         <p>Read Latest Delicious Posts And News</p>
       </div>
       <Swiper

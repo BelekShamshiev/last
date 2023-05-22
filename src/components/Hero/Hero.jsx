@@ -56,47 +56,47 @@ const Hero = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={milk} alt="milk" />{" "}
-              <p className={s.hero_swiper_p}>Milk</p>
+              <p className={s.hero_swiper_title}>Milk</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={coctail} alt="coctail" />{" "}
-              <p className={s.hero_swiper_p}>Coctail</p>
+              <p className={s.hero_swiper_title}>Coctail</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={bewerages} alt="bewerages" />{" "}
-              <p className={s.hero_swiper_p}>Bewerages</p>
+              <p className={s.hero_swiper_title}>Bewerages</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={tea} alt="tea" />{" "}
-              <p className={s.hero_swiper_p}>Tea</p>
+              <p className={s.hero_swiper_title}>Tea</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={cake} alt="cake" />{" "}
-              <p className={s.hero_swiper_p}>Cake</p>
+              <p className={s.hero_swiper_title}>Cake</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={coffe} alt="coffe"></img>{" "}
-              <p className={s.hero_swiper_p}>Coffe</p>
+              <p className={s.hero_swiper_title}>Coffe</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={milk} alt="milk" />{" "}
-              <p className={s.hero_swiper_p}>Milk</p>
+              <p className={s.hero_swiper_title}>Milk</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={coctail} alt="coctail" />{" "}
-              <p className={s.hero_swiper_p}>Coctail</p>
+              <p className={s.hero_swiper_title}>Coctail</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={bewerages} alt="bewerages" />{" "}
-              <p className={s.hero_swiper_p}>Bewerages</p>
+              <p className={s.hero_swiper_title}>Bewerages</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={tea} alt="tea" />{" "}
-              <p className={s.hero_swiper_p}>Tea</p>
+              <p className={s.hero_swiper_title}>Tea</p>
             </SwiperSlide>
             <SwiperSlide>
               <img className={s.coffe} src={cake} alt="cake" />{" "}
-              <p className={s.hero_swiper_p}>Cake</p>
+              <p className={s.hero_swiper_title}>Cake</p>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -107,13 +107,13 @@ const Hero = () => {
           <img src={bob} alt="bob" />
         </div>
         <div className={s.title}>
-          <div className={s.title_guality} >
-          <h1>BEST QUALITY</h1>
-          <h5>ESTABLISHED IN 1991</h5>
+          <div className={s.title_guality}>
+            <h1>BEST QUALITY</h1>
+            <h5>ESTABLISHED IN 1991</h5>
           </div>
           <div className={s.title_down}>
-          <h2>SPECIAL COFFEE</h2>
-          <h3>BEANS</h3>
+            <h2>SPECIAL COFFEE</h2>
+            <h3>BEANS</h3>
           </div>
         </div>
         <div className={s.left}>

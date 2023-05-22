@@ -5,13 +5,13 @@
   height: 600px;
   margin: 0 auto;
 }
-.blog_h {
+.blog_title {
   display: flex;
   justify-content: center;
   align-items: center;
   align-items: center;
 }
-.blog_h > h1 {
+.blog_title h1 {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
@@ -49,10 +49,10 @@
   transition: transform 0.4s ease-in-out;
 }
 .data_slider_card_title>img:hover{
-  transform: scale(0.95);
+  transform: scale(0.96);
 
 }
-.blog_p {
+.blog_desc {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   color: #372727  ;
   margin-top: 20px;
 }
-.blog_p > p {
+.blog_desc > p {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
@@ -97,11 +97,11 @@
     height: 600px;
   }
 
-  .blog_h > h1 {
+  .blog_title > h1 {
     font-size: 40px;
     line-height: 50px;
   }
-  .blog_p > p {
+  .blog_desc > p {
     font-size: 18px;
     line-height: 22px;
   }

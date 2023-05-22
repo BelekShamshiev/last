@@ -11,7 +11,7 @@
 .client {
   cursor: pointer;
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items: center;
   justify-content: space-around;
 }
@@ -28,13 +28,13 @@
   color: #e4b95b;
 }
 
-.p_client {
+.client_desc {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
 }
-.p_client > p {
+.client_desc > p {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
@@ -155,12 +155,11 @@
   }
 }
 
-@media (max-width:800px){
-  .client_swiper_slide{
+@media (max-width: 800px) {
+  .client_swiper_slide {
     width: 100px;
-    
   }
-  .swiper-wrapper{
+  .swiper-wrapper {
     width: 700px;
   }
   .container {
